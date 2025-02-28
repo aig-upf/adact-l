@@ -2,7 +2,7 @@
 ========================
 This repository contains the implementation of this [paper](https://openreview.net/forum?id=EW6bNEqalF&nesting=2&sort=date-desc). 
 
-Setup:
+**Setup:** <br>
 ```python 
 #install requirements
 pip install -r requirements.txt
