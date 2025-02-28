@@ -1,0 +1,6 @@
+numpy~=1.26.4
+graphviz~=0.20.2
+countminsketch~=0.2
+pandas~=2.2.1
+setuptools~=68.2.0
+plotly~=6.0.0

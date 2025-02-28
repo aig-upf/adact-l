@@ -1,0 +1,93 @@
+digraph {
+	fake [style=invisible]
+	rankdir=LR
+	q0
+	q1
+	q2
+	q3
+	q4
+	q5
+	q6
+	q7
+	q8
+	q9
+	q10
+	q11
+	q12
+	q13
+	q14
+	q15
+	q16
+	q17
+	q18
+	q19
+	q20
+	q21
+	q22
+	q23
+	q24
+	q25
+	q27
+	q28
+	q29
+	q30
+	q31
+	q32
+	q33
+	q34
+	q35
+	q36
+	q37
+	q38
+	q39
+	q40
+	fake -> q0 [style=bold]
+	q0 -> q1 [label="A, a, 0" color=black]
+	q0 -> q2 [label="A, b, 0" color=black]
+	q0 -> q3 [label="A, d, 0" color=black]
+	q1 -> q4 [label="B, b, 0" color=black]
+	q1 -> q5 [label="A, a, 0" color=black]
+	q2 -> q6 [label="A, b, 0" color=black]
+	q2 -> q7 [label="B, c, 0" color=black]
+	q2 -> q8 [label="B, e, 0" color=black]
+	q2 -> q9 [label="C, d, 0" color=black]
+	q3 -> q10 [label="B, b, 0" color=black]
+	q4 -> q11 [label="A, b, 0" color=black]
+	q4 -> q12 [label="B, c, 0" color=black]
+	q4 -> q13 [label="C, a, 0" color=black]
+	q5 -> q14 [label="C, d, 0" color=black]
+	q6 -> q15 [label="A, b, 0" color=black]
+	q7 -> q16 [label="C, b, 0" color=black]
+	q8 -> q17 [label="A, g, 1" color=black]
+	q9 -> q18 [label="B, b, 0" color=black]
+	q10 -> q19 [label="A, b, 0" color=black]
+	q10 -> q20 [label="B, e, 0" color=black]
+	q11 -> q21 [label="A, b, 0" color=black]
+	q12 -> q22 [label="B, d, 0" color=black]
+	q13 -> q23 [label="B, b, 0" color=black]
+	q14 -> q24 [label="A, d, 0" color=black]
+	q15 -> q25 [label="A, b, 0" color=black]
+	q16 -> q21 [label="A, b, 0" color=black]
+	q17 -> q27 [label="A, d, 0" color=black]
+	q18 -> q28 [label="C, d, 0" color=black]
+	q19 -> q29 [label="B, e, 0" color=black]
+	q20 -> q30 [label="B, f, 0" color=black]
+	q21 -> q31 [label="A, b, 0" color=black]
+	q22 -> q32 [label="B, a, 0" color=black]
+	q23 -> q33 [label="C, a, 0" color=black]
+	q24 -> q34 [label="B, a, 0" color=black]
+	q25 -> q35 [label="C, d, 0" color=black]
+	q27 -> q36 [label="B, a, 0" color=black]
+	q28 -> q37 [label="A, a, 0" color=black]
+	q29 -> q38 [label="A, a, 0" color=black]
+	q30 -> q39 [label="A, b, 0" color=black]
+	q31 -> q40 [label="B, c, 0" color=black]
+	q32 -> q40 [label="A, a, 0" color=black]
+	q33 -> q40 [label="A, a, 0" color=black]
+	q34 -> q40 [label="A, a, 0" color=black]
+	q35 -> q40 [label="B, b, 0" color=black]
+	q36 -> q40 [label="C, d, 0" color=black]
+	q37 -> q40 [label="A, a, 0" color=black]
+	q38 -> q40 [label="C, d, 0" color=black]
+	q39 -> q40 [label="C, d, 0" color=black]
+}
