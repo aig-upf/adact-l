@@ -35,6 +35,7 @@ python run.py [env name] H K threshold
 ```
 where H, K, threshold are the horizon length, number of episodes, 
 and threshold for the `TestDistinct()` function to return `False`, respectively. 
+The code prints the path of the final RDP .json file.
 
 
 

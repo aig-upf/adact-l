@@ -5,8 +5,9 @@ from src.utils_pdfa.renderRDP import render
 from src.utils_pdfa.plot_plotly import plot_array
 import time
 import sys
+import warnings
+warnings.filterwarnings("ignore")
 def main():
-    # H = 10
     start= int(sys.argv[1])
     end = int(sys.argv[2])
     if sys.argv[3] == "-l":
